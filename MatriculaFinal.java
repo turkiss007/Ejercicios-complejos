@@ -6,6 +6,7 @@ public class MatriculaFinal {
       public static void main(String[] args) {
         int contador = 0;
         boolean fueraLimites = false;
+        @SuppressWarnings("resource")
         Scanner leer = new Scanner(System.in);
 
         char letra[] = new char[3];
